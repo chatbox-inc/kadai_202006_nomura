@@ -279,6 +279,8 @@ export default {
     font-size: 14px;
     padding: 4 8;
     margin: 0 73;
+    text-align: center;
+    bottom: 4px;
    }
 
    .content7 .itembody{
@@ -388,7 +390,267 @@ export default {
       right: 24px;
       left: 312px;
    }
-
 }
  
+@media screen and (min-width: 481px){
+
+   body, h2, h3, h4, p {
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.05rem;
+   }
+
+   body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 320px;
+    background: #fff;
+    color: #fff;
+   }
+
+  .header{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 660px;
+    text-align: center;
+    position: relative;
+    padding-top: 48px;
+    background-color: pink;
+    color: #fff;
+   }
+
+   .header p{
+    font-size: 13px;
+    margin: 0 auto;
+    padding-top: 260px;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+   }
+
+  .content1, .content2, .content3{
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 540px;
+    padding: 32px 24px;
+    color: #fff;
+   }
+
+  .content1 h2, .content2 h2, .content3 h2, .content6 h2, .content7 h2, .content8 h2{
+    font-size: 22px;
+    margin: 0 0 10;
+   }
+
+   .content1 p, .content2 p, .content3 p{
+    font-size: 15px;
+    margin: 0 0 10;
+   }
+
+
+  .content1{
+    background-color: rgb(221, 15, 187);
+   }
+
+   .content2{
+    background-color: rgb(92, 166, 235);
+   }
+
+
+   .content3{
+    background-color: rgb(228, 215, 44);
+   }
+   
+   .content4{
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding: 64px 24px 80px;
+    min-height: 540px;
+    background-color: rgb(207, 206, 196);
+    color: #3f434a;
+   }
+
+   .content4 h2, .content5 h2{
+    font-size: 20px;
+    margin: 0 0 10;
+   }
+
+   .content4 p, .content4 p{
+    font-size: 15px;
+   }
+
+   .content4 p.a{
+    font-size: 20px;
+   }
+
+   .content4 p.b{
+    font-size: 13px;
+   }
+
+   .content5{
+    width: 400px;
+    height: 388px;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding: 64px 0 80px;
+    min-height: 540px;
+    color: #3f434a;
+   }
+
+   .content6{
+    width: 400px;
+    height: 874px;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding: 64px 24px 80px;
+    min-height: 540px;
+    color: #3f434a; 
+    background-color: rgb(207, 115, 235);
+   }
+
+   .content6 h3{
+    font-size: 20px;
+    margin: 24px 0 10px;
+   }
+
+   .content6 p{
+    font-size: 15px;
+    margin: 0 0 15;
+    text-align: justify;
+   }
+
+   .content7{
+    width: 400px;
+    height: 1108px;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding: 64px 0 80px;
+    min-height: 540px; 
+    background-color: rgb(243, 233, 140);
+    color: #3f434a;
+   }
+
+   .content7 p{
+    font-size: 14px;
+    padding: 4 8;
+    margin: 0 73;
+    text-align: center;
+    bottom: 4px;
+   }
+
+   .content7 .itembody{
+      padding: 8px 24px;
+   }
+
+   .content7 p.a{
+    font-size: 15px;
+    margin: 15px 24px;
+    text-align: justify;
+   }
+
+   .itemimage{
+    display: flex;
+    margin: 24px 0;
+   }
+
+   .itemimage p{
+    font-size: 13px;
+    text-align: center;
+   }
+
+   .price{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 16px;
+   }
+
+   .price .content{
+     order: 2;
+     display: block;
+   }
+
+   .price .content p.c{
+     font-size: 18px;
+   }
+
+   .price .content p.d{
+     font-size: 13px;
+   }
+
+   .price p.b{
+    width: 84px;
+    height: 56px;
+    font: 14px;
+    margin: 0 16px 0 0;
+    border: 2px solid;
+   }
+
+   .content8{
+    width: 400px;
+    height: 805px;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding: 64px 16px 80px;
+    min-height: 540px; 
+    color: #3f434a;
+   }
+
+   .content8 h3{
+    font-size: 20px;
+    margin: 0 0 10px;
+   }
+
+   .content9{
+    width: 400px;
+    height: 447px;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding: 64px 16px 0px;
+    min-height: 540px; 
+    background-color: rgb(243, 233, 140);
+    color: #3f434a;
+   }
+
+   .content9 h3{
+    font-size: 16px;
+    margin: 16px 0 24px;
+   }
+
+   .footer {
+    width: 400px;
+    height: 437px;
+    padding: 32px 32px 128px;
+    background: #3f434a;
+    position: relative;
+    min-height: 164px;
+   } 
+
+   .footer .footcontent{
+      font-size: 14px;
+      margin: 0 0 48px;
+   }
+
+  .footer p.copyright{
+      font-size: 13px;
+      color: #FFFFFF;
+      opacity: 0.4;
+   }
+
+   .footer .instagram{
+      position: absolute;
+      top: 24px;
+      bottom: 348px;
+      right: 24px;
+      left: 312px;
+   }
+}
+
 </style>
