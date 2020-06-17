@@ -9,11 +9,12 @@
 
       <body>
          <section class="header">
-            <img src="~/assets/img/noimage.png" margin=0 auto="16px" width="131px" height="116px">
+            <img class="logo" src="~/assets/img/noimage.png" margin=0 auto="16px" width="131px" height="116px">
             <div class="title">かわいいが届くお花便</div>
             <p>* 北海道、沖縄、離島エリアは現在対象外です</p>
          </section>
 
+       <div class="main">
          <section class="content1">
          <h2>届くのは<br>あなた好みのお花だけ</h2>
          <p>FLOWERのお花は季節やトレンドに合わせてプロがセレクトしたもの。雰囲気の異なる複数のお花から毎回好きなものが選べます。</p>
@@ -28,7 +29,9 @@
          <h2>FLOWERなら<br>いつもかわいく飾れる</h2>
          <p>専用の花器を使うと、届いたお花をさっと生けるだけでかわいい空間のできあがり。お花のある暮らしがもっと楽しくなります。</p>
          </section>
+       </div>
 
+       <div class="main2">
          <section class="content4">
             <h2>お部屋に飾りやすいサイズの<br>ブーケをワンコインで</h2>
             <img src="~/assets/img/noimage2.png" margin=0 auto="16px" width="131px" height="116px">
@@ -41,6 +44,7 @@
             <h2>月に2回の注文で、<br>お花がいつもある丁度いいペース</h2>
             <img src="~/assets/img/noimage3.png" margin=0 auto="16px" width="131px" height="116px">
          </section>
+       </div>
 
          <section class="content6">
             <h2>どんなお花が届くの？</h2>
@@ -421,6 +425,17 @@ export default {
     color: #fff;
    }
 
+   .header .logo{
+      height: 116px;
+      width: 131px;
+      margin: 30.5px 288.33px 16px;
+   }
+
+   .header .title{
+      font-size: 20px;
+      margin: 16px 36px 24px;
+   }
+
    .header p{
     font-size: 13px;
     margin: 0 auto;
@@ -431,7 +446,13 @@ export default {
     right: 0;
    }
 
+   .main{
+      display: flex;
+   }
+
   .content1, .content2, .content3{
+    height: 540;
+    width: 421.12;
     background-size: cover;
     background-position: center bottom;
     min-height: 540px;
@@ -441,7 +462,7 @@ export default {
 
   .content1 h2, .content2 h2, .content3 h2, .content6 h2, .content7 h2, .content8 h2{
     font-size: 22px;
-    margin: 0 0 10;
+    margin: 0 0 10px;
    }
 
    .content1 p, .content2 p, .content3 p{
@@ -463,22 +484,29 @@ export default {
     background-color: rgb(228, 215, 44);
    }
    
+   .main2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   }
+
    .content4{
+    flex-grow: 1;
+    flex-basis: 375px;
     background-size: cover;
     background-position: center bottom;
-    text-align: center;
-    padding: 64px 24px 80px;
     min-height: 540px;
+    padding: 32px 24px;
     background-color: rgb(207, 206, 196);
     color: #3f434a;
    }
 
    .content4 h2, .content5 h2{
     font-size: 20px;
-    margin: 0 0 10;
+    margin: 0 0 10px;
    }
 
-   .content4 p, .content4 p{
+   .content4 p{
     font-size: 15px;
    }
 
@@ -491,18 +519,16 @@ export default {
    }
 
    .content5{
-    width: 400px;
-    height: 388px;
+    flex-grow: 1;
+    flex-basis: 375px;
     background-size: cover;
     background-position: center bottom;
-    text-align: center;
-    padding: 64px 0 80px;
     min-height: 540px;
+    padding: 32px 24px;
     color: #3f434a;
    }
 
    .content6{
-    width: 400px;
     height: 874px;
     background-size: cover;
     background-position: center bottom;
@@ -525,7 +551,6 @@ export default {
    }
 
    .content7{
-    width: 400px;
     height: 1108px;
     background-size: cover;
     background-position: center bottom;
@@ -545,7 +570,9 @@ export default {
    }
 
    .content7 .itembody{
-      padding: 8px 24px;
+    padding: 8px 24px;
+    max-width: 400px;
+    margin: 0 auto;
    }
 
    .content7 p.a{
@@ -556,6 +583,7 @@ export default {
 
    .itemimage{
     display: flex;
+    text-align: center;
     margin: 24px 0;
    }
 
@@ -592,7 +620,6 @@ export default {
    }
 
    .content8{
-    width: 400px;
     height: 805px;
     background-size: cover;
     background-position: center bottom;
@@ -608,7 +635,6 @@ export default {
    }
 
    .content9{
-    width: 400px;
     height: 447px;
     background-size: cover;
     background-position: center bottom;
@@ -625,7 +651,6 @@ export default {
    }
 
    .footer {
-    width: 400px;
     height: 437px;
     padding: 32px 32px 128px;
     background: #3f434a;
@@ -642,14 +667,13 @@ export default {
       font-size: 13px;
       color: #FFFFFF;
       opacity: 0.4;
+      text-align: center;
    }
 
    .footer .instagram{
       position: absolute;
       top: 24px;
-      bottom: 348px;
       right: 24px;
-      left: 312px;
    }
 }
 
