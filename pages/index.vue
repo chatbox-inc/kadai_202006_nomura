@@ -1,70 +1,55 @@
 <template>
-  <html>
-      <head>
-         <meta charset="UFT-8">
-         <title>FLOWER｜かわいいが届くお花便</title>
-         <meta name="description" content="あなた好みのお花がポストに届く定期便アプリ">
-         <meta  name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-      </head>
-
-      <body>
-         <section class="header">
-            <img src="~/assets/img/flower2.png" class="logo">
-            <div class="title">かわいいが届くお花便</div>
-            <p>* 北海道、沖縄、離島エリアは現在対象外です</p>
-         </section>
-
+      <div class="body">
        <div class="main">
-         <section class="content1">
-         <h2>届くのは<br>あなた好みのお花だけ</h2>
-         <p>FLOWERのお花は季節やトレンドに合わせてプロがセレクトしたもの。雰囲気の異なる複数のお花から毎回好きなものが選べます。</p>
-         </section>
+          <section class="intro1">
+             <h2>届くのは<br>あなた好みのお花だけ</h2>
+             <p>FLOWERのお花は季節やトレンドに合わせてプロがセレクトしたもの。雰囲気の異なる複数のお花から毎回好きなものが選べます。</p>
+          </section>
 
-         <section class="content2">
-         <h2>お花はポストに投函<br>忙しくても大丈夫</h2>
-         <p>お花は専用BOXに入れてポストに直接お届け。不在で受け取れなくても安心して使えます。</p>
-         </section>
+          <section class="intro2">
+             <h2>お花はポストに投函<br>忙しくても大丈夫</h2>
+             <p>お花は専用BOXに入れてポストに直接お届け。不在で受け取れなくても安心して使えます。</p>
+           </section>
 
-         <section class="content3">
-         <h2>FLOWERなら<br>いつもかわいく飾れる</h2>
-         <p>専用の花器を使うと、届いたお花をさっと生けるだけでかわいい空間のできあがり。お花のある暮らしがもっと楽しくなります。</p>
-         </section>
+          <section class="intro3">
+             <h2>FLOWERなら<br>いつもかわいく飾れる</h2>
+             <p>専用の花器を使うと、届いたお花をさっと生けるだけでかわいい空間のできあがり。お花のある暮らしがもっと楽しくなります。</p>
+          </section>
        </div>
       
-      <div class="price">
-       <div class="main2">
-            <section class="content4">
-               <div class="wrap">
-                  <h2>お部屋に飾りやすいサイズの<br>ブーケをワンコインで</h2>
-                  <div class="wrap2">
-                     <div class="content">
-                        <div class="bouquet">
-                           <img src="~/assets/img/flower6.png" class="trial">
-                        </div>
-                        <div class="douquetprice">
-                           <p>お花とグリーン5〜6本のブーケ</p>
-                           <p class="a">500円 <span>／1回</span></p>
+       <div class="price">
+          <div class="main2">
+             <section class="fee">
+                     <div class="wrap">
+                        <h2>お部屋に飾りやすいサイズの<br>ブーケをワンコインで</h2>
+                        <div class="wrap2">
+                           <div class="content">
+                              <div class="bouquet">
+                                 <img src="~/assets/img/flower6.png" class="trial">
+                              </div>
+                              <div class="douquetprice">
+                                 <p>お花とグリーン5〜6本のブーケ</p>
+                                 <p class="a">500円 <span>／1回</span></p>
+                              </div>
+                           </div>
+                           <div class="footnote">
+                              <p>* 送料は360円（税別）です。<br>* 価格は税別です。</p>
+                           </div>
                         </div>
                      </div>
-                     <div class="footnote">
-                        <p>* 送料は360円（税別）です。<br>* 価格は税別です。</p>
-                     </div>
-                  </div>
-               </div>
-            </section>
+              </section>
 
-            <section class="content5">
-               <h2>月に2回の注文で、<br>お花がいつもある丁度いいペース</h2>
-               <img src="~/assets/img/flower8.png" class="img">
-            </section>
-       </div>
-      </div>
+                  <section class="frequency">
+                     <h2>月に2回の注文で、<br>お花がいつもある丁度いいペース</h2>
+                     <img src="~/assets/img/flower8.png" class="img">
+                  </section>
+          </div>
+         </div>
 
-         <section class="content6">
+         <section class="flower">
             <div class="title">
              <h2>どんなお花が届くの？</h2>
             </div>
-            <!-- <img src="~/assets/img/flower9.jpg" class="itemimg"> -->
             <div class="itemimg"></div>
             <div class="body">
                <h3>かわいいお花だけ</h3>
@@ -76,7 +61,7 @@
             </div>
          </section>
 
-         <section class="content7">
+         <section class="bin">
             <div class="container">
                <div class="title">
                   <h2>かんたん、かわいい<br>FLOWERのための花の器</h2>
@@ -112,7 +97,7 @@
 
          </section>
 
-         <section class="content8">
+         <section class="detail">
             <h2>FLOWERだから続けられる、<br>お花のある暮らし</h2>
             <div class="container">
                <div class="item1">
@@ -133,31 +118,15 @@
             </div>
          </section>
 
-         <section class="content9">
+         <section class="end">
             <div class="container">
                <div class="itemlogo">
-                  <!-- <img src="~/assets/img/flower17.png" class="logo"> -->
                   <h3 class="navy mt16">かわいいが届くお花便</h3>
                </div>
-               <!-- <img src="~/assets/img/flower18.jpg" class="itemimg"> -->
                <div class="itemimg"></div>
             </div>
          </section>
-      
-         <section class="footer">
-             <img class="instagram" src="~/assets/img/flower19.png">
-             <div class="container">
-                <p>お知らせnote</p>
-                <p>FAQ</p>
-                <p>プライバシーポリシー</p>
-                <p>利用規約</p>
-                <p>特定商取引法に関する表記</p>
-                <p>運営会社</p>
-               </div>
-             <p class="copyright">Copyright ROLLCAKE Inc. All Rights Reserved.</p>
-         </section>
-      </body>
-  </html>
+      </div>
 </template>
 
 <script>
@@ -168,62 +137,21 @@ export default {
 <style>
 @media screen and (max-width: 480px){
 
-   body, h2, h3, h4, p {
+   .body, h2, h3, h4, p {
     font-family: "Noto Sans JP", sans-serif;
     line-height: 1.6;
     letter-spacing: 0.05rem;
    }
 
-   body {
+   .body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     min-width: 320px;
-    background: #fff;
-    color: #fff;
    }
 
    section {
     display: block;
-   }
-
-  .header{
-    background-image: url("~static/img/flower1.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    min-height: 660px;
-    text-align: center;
-    position: relative;
-    padding-top: 48px;
-    background-color: pink;
-   }
-
-   .header .logo{
-    margin: 0 auto 16px;
-    width: 131px;
-    height: 116px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 5vh;
-   }
-
-   .header .title{
-   font-size: 18px;
-    color: #fff;
-    margin: 16px 6vmin 24px;
-   }
-
-   .header p{
-    font-size: 13px;
-    margin-bottom: 4px;
-    padding-top: 260px;
-    position: absolute;
-    bottom: 24px;
-    left: 0;
-    right: 0;
-    color: #fff;
    }
 
    .main{
@@ -235,7 +163,7 @@ export default {
     min-height: 540px;
    }
 
-  .content1, .content2, .content3{
+  .intro1, .intro2, .intro3{
     background-size: cover;
     background-position: center bottom;
     min-height: 540px;
@@ -243,34 +171,34 @@ export default {
     color: #fff;
    }
 
-  .content1 h2, .content2 h2, .content3 h2, .content6 h2, .content7 h2, .content8 h2{
+  .intro1 h2, .intro2 h2, .intro3 h2, .flower h2, .bin h2, .detail h2{
     font-size: 22px;
     margin: 0 0 10;
     font-weight: normal;
    }
 
-   .content1 p, .content2 p, .content3 p{
+   .intro1 p, .intro2 p, .intro3 p{
     font-size: 15px;
     margin: 0 0 10;
     text-align: justify;
    }
 
 
-  .content1{
+  .intro1{
     background: #cdbeca;
     background-image: url("~static/img/flower3.jpg");
     background-size: cover;
     background-position: center bottom;
    }
 
-   .content2{
+   .intro2{
     background: #b2bac4;
     background-image: url("~static/img/flower4.jpg");
     background-size: cover;
     background-position: center bottom;
    }
 
-   .content3{
+   .intro3{
     background: #e6d5b1;
     background-image: url("~static/img/flower5.jpg");
     background-size: cover;
@@ -278,7 +206,6 @@ export default {
    }
 
    .main2{
-    display: flex;
     flex-wrap: wrap;
     text-align: center;
     flex-grow: 1;
@@ -286,8 +213,7 @@ export default {
     color: #3f434a;
    }
    
-   .content4{
-    width: 400px;
+   .fee{
     background: #f5f5f5;
     background-size: cover;
     background-position: center bottom;
@@ -295,24 +221,24 @@ export default {
     min-height: 540px;
    }
 
-   .content4 h2, .content5 h2{
+   .fee h2, .frequency h2{
     font-size: 20px;
     margin: 0 0 10;
     font-weight: normal;
    }
 
-   .content4 .wrap{
+   .fee .wrap{
     max-width: 400px;
     margin: 0 auto;
    }
 
-   .content4 .content{
+   .fee .content{
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
    }
 
-   .content4 .bouquet{
+   .fee .bouquet{
     flex-basis: 200px;
     background-image: url("~static/img/flower7.png");
     background-size: 200px 200px;
@@ -322,7 +248,7 @@ export default {
     margin: 24px 0 8px;
    }
 
-   .content4 .trial{
+   .fee .trial{
     height: 46px;
     width: 125px;
     position: absolute;
@@ -332,24 +258,23 @@ export default {
     margin: auto;
    }
 
-   .content4 p, .content4 p{
+   .fee p, .fee p{
     font-size: 15px;
    }
 
-   .content4 p.a{
+   .fee p.a{
     font-size: 20px;
    }
 
-   .content4 p.a span{
+   .fee p.a span{
     font-size: 15px;
    }
 
-   .content4 p.b{
+   .fee p.b{
     font-size: 13px;
    }
 
-   .content5{
-    width: 400px;
+   .frequency{
     height: 388px;
     background-size: cover;
     background-position: center bottom;
@@ -359,7 +284,7 @@ export default {
     color: #3f434a;
    }
 
-   .content5 .img{
+   .frequency .img{
     margin-top: 24px;
     height: 156px;
     background-size: contain;
@@ -367,8 +292,7 @@ export default {
     background-repeat: no-repeat;
    }
 
-   .content6{
-    width: 400px;
+   .flower{
     height: 874px;
     background-size: cover;
     background-position: center bottom;
@@ -379,7 +303,7 @@ export default {
     background: #ead5dc;
    }
 
-   .content6 .itemimg{
+   .flower .itemimg{
     width: 100%;
     background-image: url("~static/img/flower9.jpg");
     height: 250px;
@@ -388,26 +312,28 @@ export default {
     background-repeat: no-repeat;
    }
 
-   .content6 p{
-      text-align: left;
+   .flower .body{
+    margin: 0 auto;
    }
 
-   .content6 h3{
+   .flower p{
+    text-align: left;
+   }
+
+   .flower h3{
     font-size: 20px;
     margin: 24px 0 10px;
     text-align: center;
     font-weight: normal;
    }
 
-   .content6 p .content7 p{
+   .flower p .bin p{
     font-size: 15px;
     margin: 0 0 15;
     text-align: justify;
    }
 
-   .content7{
-    width: 400px;
-    height: 1100px;
+   .bin{
     background-size: cover;
     background-position: center bottom;
     text-align: center;
@@ -417,7 +343,7 @@ export default {
     color: #3f434a;
    }
 
-   .content7 p.discount{
+   .bin p.discount{
     background: #fff;
     font-size: 14px;
     font-weight: bold;
@@ -426,7 +352,7 @@ export default {
     margin: 0 auto;
    }
 
-   .content7 .itemimg{
+   .bin .itemimg{
     width: 100vmin;
     margin: 0 auto;
     background-size: 112%;
@@ -434,13 +360,12 @@ export default {
     background-repeat: no-repeat;
    }
 
-   .content7 .itembody{
-    max-width: 400px;
+   .bin .itembody{
     margin: 0 auto;
     padding: 8px 24px;
    }
 
-   .content7 p.a{
+   .bin p.a{
     font-size: 15px;
     text-align: left;
     margin: 0 0 15px;
@@ -470,12 +395,12 @@ export default {
     margin: auto;
    }
 
-   .content7 .price{
+   .bin .price{
     display: flex;
     margin-bottom: 16px;
    }
 
-   .content7 .price .title{
+   .bin .price .title{
     order: 1;
     border: 2px solid;
     font-weight: bold;
@@ -485,25 +410,23 @@ export default {
     margin-right: 16px;
    }
 
-   .content7 .price .content{
+   .bin .price .content{
       order: 2;
    }
 
-   .content7 .price .content .discountprice{
+   .bin .price .content .discountprice{
       font-size: 18px;
    }
-   .content7 .price .content .normalprice{
+   .bin .price .content .normalprice{
       font-size: 13px;
    }
 
-   .content7 .footnote{
+   .bin .footnote{
     font-size: 13px;
     text-align: left;
    }
 
-   .content8{
-    width: 400px;
-    height: 805px;
+   .detail{
     background-size: cover;
     background-position: center bottom;
     text-align: center;
@@ -512,36 +435,36 @@ export default {
     color: #3f434a;
    }
 
-   .content8 .container{
+   .detail .container{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
    }
 
-   .content8 .item1, .item2, .item3{
+   .detail .item1, .item2, .item3{
     flex-grow: 1;
     flex-basis: 223px;
     margin-top: 24px;
    }
 
-   .content8 .itemimg1, .itemimg2, .itemimg3{
+   .detail .itemimg1, .itemimg2, .itemimg3{
     width: 80px;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 80px;
    }
 
-   .content8 h3{
+   .detail h3{
     font-size: 20px;
     margin: 0 0 10px;
     font-weight: normal;
    }
 
-   .content8 p{
+   .detail p{
     font-size: 15px;
    }
 
-   .content9{
+   .end{
     background-size: cover;
     background-position: center bottom;
     text-align: center;
@@ -550,13 +473,13 @@ export default {
     color: #3f434a;
    }
 
-   .content9 .container{
+   .end .container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
    }
 
-   .content9 .itemlogo{
+   .end .itemlogo{
     padding-top: 76px;
     height: 145px;
     background-image: url("~static/img/flower17.png");
@@ -566,13 +489,13 @@ export default {
     z-index: 100;
    }
 
-   .content9 h3{
+   .end h3{
     font-size: 16px;
     margin: 16px 0 24px;
     font-weight: 400;
    }
 
-   .content9 .itemimg{
+   .end .itemimg{
     margin: -40px auto 0;
     min-height: 278px;
     height: 50vmin;
@@ -583,99 +506,23 @@ export default {
     background-repeat: no-repeat;
    }
 
-   .footer {
-    width: 400px;
-    height: 437px;
-    padding: 32px 32px 128px;
-    background: #3f434a;
-    position: relative;
-    min-height: 164px;
-   } 
-
-   .footer .instagram{
-    width: 64px;
-    height: 64px;
-    background-size: cover;
-    position: absolute;
-    top: 24px;
-    right: 24px;
-   }
-
-   .footer .container{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 48px;
-   }
-
-   .footer p{
-    flex-grow: 1;
-    margin-bottom: 16px;
-    font-size: 14px;
-   }
-
-  .footer p.copyright{
-    font-size: 13px;
-    color: #FFFFFF;
-    opacity: 0.4;
-    text-align: center;
-    bottom: 124px;
-    right: 0;
-    left: 0;
-    /* margin: auto; */
-   }
 }
  
 @media screen and (min-width: 481px){
 
-   body, h2, h3, h4, p {
+   .body, h2, h3, h4, p {
     font-family: "Noto Sans JP", sans-serif;
     line-height: 1.6;
     letter-spacing: 0.05rem;
    }
 
-   body {
+   .body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     min-width: 320px;
-    background: #fff;
-    color: #fff;
-   }
-
-  .header{
-    background-image: url("~static/img/hana1.jpg");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    min-height: 660px;
-    text-align: center;
-    position: relative;
-    padding-top: 100px;
-    color: #fff;
-   }
-
-   .header .logo{
-    margin: 0 auto 16px;
-    height: 126px;
-    width: 141px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-   }
-
-   .header .title{
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 24px
-   }
-
-   .header p{
-    font-size: 13px;
-    position: absolute;
-    bottom: 40px;
-    left: 0;
-    right: 0;
+    /* background: #fff;
+    color: #fff; */
    }
 
    .main{
@@ -684,7 +531,7 @@ export default {
     box-sizing: inherit;
    }
 
-  .content1, .content2, .content3{
+  .intro1, .intro2, .intro3{
     flex-basis: 1vw;
     height: 80vh;
     color: #fff;
@@ -693,32 +540,33 @@ export default {
     min-height: 540px;
    }
 
-   .content1 h2, .content2 h2, .content3 h2, .content8 h2{
+   .intro1 h2, .intro2 h2, .intro3 h2, .detail h2{
     font-size: 22px;
     margin: 0 0 10px;
     font-weight: normal;
    }
 
-   .content1 p, .content2 p, .content3 p{
+   .intro1 p, .intro2 p, .intro3 p{
     font-size: 15px;
     margin: 0 0 10;
     text-align: justify;
    }
-   .content1{
+
+   .intro1{
     background: #cdbeca;
     background-image: url(~static/img/flower3.jpg);
     background-size: cover;
     background-position: center bottom;
     }
 
-   .content2{
+   .intro2{
     background: #b2bac4;
     background-image: url(~static/img/flower4.jpg);
     background-size: cover;
     background-position: center bottom;
    }
 
-   .content3{
+   .intro3{
     background: #e6d5b1;
     background-image: url(~static/img/flower5.jpg);
     background-size: cover;
@@ -737,7 +585,7 @@ export default {
     color: #3f434a
    }
 
-   .content4, .content5{
+   .fee, .frequency{
     flex-grow: 1;
     width: 701.85px;
     flex-basis: 375px;
@@ -746,28 +594,28 @@ export default {
     color: #3f434a;
    }
 
-   .content4{
+   .fee{
     background: #f5f5f5;
     padding: 64px 24px;
    }
 
-   .content4 .wrap{
+   .fee .wrap{
     max-width: 400px;
     margin: 0 auto;
    }
 
-   .content4 h2, .content5 h2{
+   .fee h2, .frequency h2{
     font-size: 20px;
     margin: 0 0 10px;
    }
 
-   .content4 .content{
+   .fee .content{
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
    }
 
-   .content4 .bouquet{
+   .fee .bouquet{
     flex-basis: 200px;
     background-image: url(~static/img/flower7.png);
     background-size: 200px 200px;
@@ -777,7 +625,7 @@ export default {
     margin: 24px 0 8px;
    }
 
-   .content4 .trial{
+   .fee .trial{
     height: 46px;
     width: 125px;
     position: absolute;
@@ -787,36 +635,36 @@ export default {
     margin: auto;
    }
 
-   .content4 .douquetprice{
+   .fee .douquetprice{
     margin: 16px auto;
     flex: none;
     font-weight: bold;
    }
 
-   .content4 p{
+   .fee p{
     font-size: 15px;
    }
 
-   .content4 p.a{
+   .fee p.a{
     font-size: 20px;
    }
 
-   .content4 span{
+   .fee span{
     font-size: 15px;
    }
 
-   .content5{
+   .frequency{
     margin: auto;
     margin-top: 100px;
     padding: 64px 24px;
    }
 
-   .content5 .img{
+   .frequency .img{
     margin-top: 24px;
     height: 170px;
    }
 
-   .content6{
+   .flower{
     height: 730px;
     display: flex;
     text-align: center;
@@ -826,7 +674,7 @@ export default {
     background: #ead5dc;
    }
 
-   .content6 h2{
+   .flower h2{
     text-align: center;
     margin-bottom: 0;
     margin-top: 0;
@@ -834,7 +682,7 @@ export default {
     font-weight: normal;
    }
 
-   .content6 .title{
+   .flower .title{
     order: 2; 
     width: 50%;
     margin-top: 140px;
@@ -843,7 +691,7 @@ export default {
     flex-grow: 1;
    }
 
-   .content6 .itemimg{
+   .flower .itemimg{
     order: 1;
     width: 50%;
     height: 730px;
@@ -854,51 +702,51 @@ export default {
     background-repeat: no-repeat;
    }
 
-   .content6 .body{
+   .flower .body{
     order: 3;
     margin: 0 auto;
     max-width: 400px;
     flex-grow: 1;
    }
 
-   .content6 h3{
+   .flower h3{
     font-size: 22px;
     margin: 24px 0 10px;
    }
 
-   .content6 p{
+   .flower p{
     font-size: 15px;
     margin: 0 0 15;
     text-align: justify;
    }
 
-   .content7{
+   .bin{
     text-align: center;
     padding: 10vmin 0 0;
     background: #e7e3df;
     color: #3f434a;
    }
 
-   .content7 .container{
+   .bin .container{
     height: 730px;
     flex-flow: column wrap;
     display: flex;
    }
 
-   .content7 .title{
+   .bin .title{
     order: 1;
     width: 50%;
     max-height: fit-content;
    }
 
-   .content7 h2{
+   .bin h2{
     text-align: center;
     margin-top: 0;
     font-size: 26px;
     font-weight: normal;
    }
 
-   .content7 .discount{
+   .bin .discount{
     background: #fff;
     font-size: 14px;
     font-weight: bold;
@@ -908,14 +756,14 @@ export default {
     margin-top: 16px;
    }
 
-   .content7 .itemimg{
+   .bin .itemimg{
     min-height: 0;
     order: 3;
     width: 50%;
     height: 730px;
    }
 
-   .content7 .itembody{
+   .bin .itembody{
     order: 2;
     width: 400px;
     margin: 0 auto;
@@ -923,27 +771,27 @@ export default {
     padding: 0;
    }
 
-   .content7 p{
+   .bin p{
     font-size: 15px;
     margin: 15px 24px;
     text-align: justify;
     bottom: 4px;
    }
 
-   .content7 .variation{
+   .bin .variation{
     display: flex;
     justify-content: space-between;
     margin: 24px auto;
    }
 
-   .content7 .itembell, .itemmoon, .itemcandle{
+   .bin .itembell, .itemmoon, .itemcandle{
     flex-grow: 1;
     height: 116px;
     max-width: 98px;
     position: relative;
    }
 
-   .content7 .variation p{
+   .bin .variation p{
     font-size: 13px;
     text-align: center;
     position: absolute;
@@ -953,12 +801,12 @@ export default {
     margin: auto;
    }
 
-   .content7 .price{
+   .bin .price{
     display: flex;
     margin-bottom: 16px;
    }
 
-   .content7 .price .title{
+   .bin .price .title{
     width: 100px;
     order: 1;
     border: 2px solid;
@@ -969,56 +817,56 @@ export default {
     margin-right: 16px;
    }
 
-   .content7 .price .content{
+   .bin .price .content{
     order: 2;
    }
 
-   .content7 .price .content .discountprice{
+   .bin .price .content .discountprice{
     font-size: 18px;
    }
 
-   .content7 .price .content .normalprice{
+   .bin .price .content .normalprice{
     font-size: 13px;
    }
 
-   .content7 .footnote{
+   .bin .footnote{
     font-size: 13px;
    }
 
-   .content8{
+   .detail{
     text-align: center;
     padding: 48px 16px 64px;
     color: #3f434a;
    }
 
-   .content8 h2{
+   .detail h2{
     font-size: 26px;
     font-weight: normal;
     margin-top: 0;
    }
 
-   .content8 .container{
+   .detail .container{
     display: flex;
     flex-wrap: wrap;
    }
 
-   .content8 .item1, .item2, .item3{
+   .detail .item1, .item2, .item3{
     flex-grow: 1;
     flex-basis: 223px;
     margin-top: 24px
    }
 
-   .content8 .itemimg1, .itemimg2, .itemimg3{
+   .detail .itemimg1, .itemimg2, .itemimg3{
       width: 80px;
    }
 
-   .content8 h3{
+   .detail h3{
     font-size: 20px;
     margin: 0 0 10px;
     font-weight: normal
    }
 
-   .content9{
+   .end{
     height: 420px;
     text-align: center;
     padding: 0 4vmin;
@@ -1026,13 +874,13 @@ export default {
     color: #3f434a;
    }
 
-   .content9 .container{
+   .end .container{
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
    }
 
-   .content9 .itemlogo{
+   .end .itemlogo{
     order: 2;
     margin-left: -250px;
     margin-top: 60px;
@@ -1045,14 +893,14 @@ export default {
     z-index: 100;
    }
 
-   .content9 h3{
+   .end h3{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
     margin-top: 16px;
    }
 
-   .content9 .itemimg{
+   .end .itemimg{
     margin: 0;
     order: 1;
     width: 80%;
@@ -1062,44 +910,6 @@ export default {
     background-image: url(~static/img/flower18.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
-   }
-
-   .footer {
-    padding: 32px 32px 128px;
-    background: #3f434a;
-    position: relative;
-    min-height: 164px;
-   } 
-
-   .footer .instagram{
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    width: 64px;
-    height: 64px;
-   }
-
-   .footer .container{
-    flex-direction: row;
-    width: 90%;
-    display: flex;
-    margin-bottom: 48px;
-   }
-
-  .footer p{
-    flex-grow: 1;
-    margin-bottom: 16px;
-   }
-
-  .footer p.copyright{
-    text-align: center;
-    position: absolute;
-    bottom: 124px;
-    right: 0;
-    left: 0;
-    font-size: 13px;
-    color: #FFFFFF;
-    opacity: 0.4;
    }
 }
 
